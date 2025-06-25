@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Генплан МОФ-3.kmz</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="011F5BD4A638DC36EE78">
+		<name>Временные метки</name>
+		<open>1</open>
+		<Placemark id="145D0F7F8338DC36EE78">
+			<name>q2</name>
+			<LookAt>
+				<longitude>69.54072313344913</longitude>
+				<latitude>40.81505652247016</latitude>
+				<altitude>0</altitude>
+				<heading>3.688961407749066</heading>
+				<tilt>13.30186672928561</tilt>
+				<range>3257.912817045098</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>69.53271313888889,40.81090304444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2C26CA8EEC38DC36EE78">
+			<name>q1</name>
+			<LookAt>
+				<longitude>69.54072313344913</longitude>
+				<latitude>40.81505652247016</latitude>
+				<altitude>0</altitude>
+				<heading>3.688961407749066</heading>
+				<tilt>13.30186672928561</tilt>
+				<range>3257.912817045098</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>69.55414887222221,40.82340807777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<GroundOverlay id="3D78D8735438DC36EE78">
+			<name>1</name>
+			<color>82ffffff</color>
+			<Icon>
+				<href>files/МОФ_Генплан_1.jpg</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>40.83963163607902</north>
+				<south>40.80271510628506</south>
+				<east>69.58631133158406</east>
+				<west>69.51615932955471</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+</Document>
+</kml>
